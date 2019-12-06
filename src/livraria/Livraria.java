@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class Livraria {
 
     public static void main(String[] args) {
-        Connection testeConexao = new Connect("root","","TestesJDBC3").connection;
+        Connection testeConexao = new Connect("root","","Livraria").connection;
     }
     
 }
